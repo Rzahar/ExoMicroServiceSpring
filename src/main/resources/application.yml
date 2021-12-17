@@ -1,0 +1,16 @@
+
+spring:
+  data:
+    mongodb:
+      database: medical
+      host: localhost
+      port: 27017
+
+server:
+  port: 8081
+
+varInfirmier:
+  port: http://localhost:8084
+
+varPatient :
+  port: http://localhost:8082
